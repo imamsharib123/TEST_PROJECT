@@ -43,7 +43,7 @@ class TestCase(unittest.TestCase):
         self.click_Login_Button.click()
         self.runTest1()
         
-    def runTest1(self):
+    def runTest1(self)
         #print("1nd test case")
         self.Text=self.driver.find_element_by_xpath("//p[text()='How much you rate for CTC & Benefits in Mirafra?']") 
         print(self.Text.size)
